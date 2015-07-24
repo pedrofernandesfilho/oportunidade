@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Feed</title>
+    <link href="@Url.Content("~/Content/libs/bootstrap/css/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/Site.css")" rel="stylesheet" type="text/css" />
+</head><body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                @Html.ActionLink("Feed", "Index", new { controller = "Home" } , new { @class = "navbar-brand" })
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <script src="@Url.Content("~/Content/libs/jquery/jquery-2.1.4.min.js")"></script>
+    <script src="@Url.Content("~/Content/libs/bootstrap/js/bootstrap.min.js")"></script>
+</body></html>

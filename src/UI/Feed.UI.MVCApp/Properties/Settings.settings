@@ -1,0 +1,65 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Feed.UI.MVCApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Prepositions" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;a&lt;/string&gt;
+  &lt;string&gt;ante&lt;/string&gt;
+  &lt;string&gt;após&lt;/string&gt;
+  &lt;string&gt;até&lt;/string&gt;
+  &lt;string&gt;com&lt;/string&gt;
+  &lt;string&gt;contra&lt;/string&gt;
+  &lt;string&gt;de&lt;/string&gt;
+  &lt;string&gt;desde&lt;/string&gt;
+  &lt;string&gt;em&lt;/string&gt;
+  &lt;string&gt;entre&lt;/string&gt;
+  &lt;string&gt;para&lt;/string&gt;
+  &lt;string&gt;perante&lt;/string&gt;
+  &lt;string&gt;por&lt;/string&gt;
+  &lt;string&gt;sem&lt;/string&gt;
+  &lt;string&gt;sob&lt;/string&gt;
+  &lt;string&gt;sobre&lt;/string&gt;
+  &lt;string&gt;trás&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Articles" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;o&lt;/string&gt;
+  &lt;string&gt;os&lt;/string&gt;
+  &lt;string&gt;a&lt;/string&gt;
+  &lt;string&gt;as&lt;/string&gt;
+  &lt;string&gt;um&lt;/string&gt;
+  &lt;string&gt;uns&lt;/string&gt;
+  &lt;string&gt;uma&lt;/string&gt;
+  &lt;string&gt;umas&lt;/string&gt;
+  &lt;string&gt;ao&lt;/string&gt;
+  &lt;string&gt;aos&lt;/string&gt;
+  &lt;string&gt;à&lt;/string&gt;
+  &lt;string&gt;às&lt;/string&gt;
+  &lt;string&gt;do&lt;/string&gt;
+  &lt;string&gt;dos&lt;/string&gt;
+  &lt;string&gt;da&lt;/string&gt;
+  &lt;string&gt;das&lt;/string&gt;
+  &lt;string&gt;dum&lt;/string&gt;
+  &lt;string&gt;duns&lt;/string&gt;
+  &lt;string&gt;duma&lt;/string&gt;
+  &lt;string&gt;dumas&lt;/string&gt;
+  &lt;string&gt;no&lt;/string&gt;
+  &lt;string&gt;nos&lt;/string&gt;
+  &lt;string&gt;na&lt;/string&gt;
+  &lt;string&gt;nas&lt;/string&gt;
+  &lt;string&gt;num&lt;/string&gt;
+  &lt;string&gt;nuns&lt;/string&gt;
+  &lt;string&gt;numa&lt;/string&gt;
+  &lt;string&gt;numas&lt;/string&gt;
+  &lt;string&gt;pelo&lt;/string&gt;
+  &lt;string&gt;pelos&lt;/string&gt;
+  &lt;string&gt;pela&lt;/string&gt;
+  &lt;string&gt;pelas&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

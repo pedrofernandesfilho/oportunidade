@@ -1,0 +1,23 @@
+﻿@{ ViewBag.Title = "Index"; }
+<h2>Notícias</h2>
+@foreach (var item in Model) {
+    <div class="row">
+        <div class="col-md-12">
+            <div class="news">
+                <h3>@if (!string.IsNullOrEmpty(item.Link)) { <a href="@item.Link">@item.Title</a> } else { @item.Title }</h3>
+                @Html.Raw(item.Summary)
+                <p class="publisDate">@item.PublishDate</p>
+                <hr />
+                <p><b>Total de palavras:</b> @item.ContentWordsCount</p>
+                <p><b>Top 10 palavras:</b>
+                @{  string s = "";
+                    foreach(var p in item.ContentWordsTop10) {
+                        @(string.Format("{0}{1} ", s, p))
+                        s = "/ ";
+                    }
+                }
+                </p>
+            </div>
+        </div>
+    </div>
+}
